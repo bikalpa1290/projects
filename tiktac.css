@@ -1,0 +1,49 @@
+body{
+    background-color: #BFCDE0;
+}
+.boxes{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 110px);
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#reset{
+    margin-top:350px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    height: 20px;
+    width: 100px;
+    background-color: bisque;
+}
+#title{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+#theme{
+    text-decoration: underline;
+    color: brown;
+}
+#winMessage{
+    margin-top:10px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: whitesmoke;
+}
