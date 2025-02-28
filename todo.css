@@ -16,7 +16,7 @@ header>h1{
     margin-left: 80px;
 }
 main{
-    height: 810px;
+    height: 800px;
     width: 660px;
     /* margin-top: 20px; */
     margin-left: 390px;
@@ -47,4 +47,40 @@ p{
     font-weight: 400px ;
     visibility: hidden;
     
+}
+img{
+    height: 45px;
+    width: 45px;
+    color: white;
+}
+#goalscontainer{
+    position: absolute;
+    /* background-color: yellow; */
+    margin: 200px auto auto 0px;
+}
+.goals{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    border: 1px solid 	#414a4c;
+    border-radius: 17px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 82px;
+}
+input{
+    border: 0;
+}
+
+#lastmessage{
+    position: absolute;
+    margin-top: 620px;
+    /* margin-left: 150px; */
+    width: 600px;
+    /* background-color: yellow; */
+    text-align: center;
+    
+}
+#lastmessage>h4{
+    text-align:r;
 }
