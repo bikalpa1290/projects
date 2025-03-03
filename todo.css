@@ -35,11 +35,22 @@ p{
     margin:30px auto auto 40px ;
 }
 #bar{
-    background-color: #48A3001A;
-    width: 574px;
-    height: 35px;
-    margin: 10px auto auto 35px;
-    border-radius: 30px;
+    margin-left: 20px;
+    width: 190%;
+    height: 40px;
+    background: #f2f2f2;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    /* background-color: #6F4E37; */
+    border: 2.5px solid whitesmoke;
+}
+#progress{
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: green;
+    transition: width 1s ease-in-out; /* Smooth transition */
 }
 #comment{
     color:#FF5151ed;
@@ -83,4 +94,12 @@ input{
 }
 #lastmessage>h4{
     text-align:r;
+}
+.goals>.fa-solid{
+    height: 20px;
+    width: 20px;
+    margin-left: 20px;
+    border: 5px solid whitesmoke;
+    border-radius: 50%;
+    color: white;
 }
